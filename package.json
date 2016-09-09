@@ -1,0 +1,20 @@
+{
+  "name": "node_socket",
+  "version": "1.0.0",
+  "description": "connection with socket",
+  "main": "socket_server.js",
+  "scripts": {
+    "test": "node server 8090 & node socket_server 8091",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "socket",
+    "socket.io"
+  ],
+  "author": "zonybir",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^1.4.8"
+  }
+}
